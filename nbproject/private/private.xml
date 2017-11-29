@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/chiarotti/NetBeansProjects/MiniPascal/src/minipascal/util/MiniPascalBaseVisitorImpl.java</file>
+            <file>file:/home/chiarotti/NetBeansProjects/MiniPascal/grammar/minipascal/parser/MiniPascal.g4</file>
+            <file>file:/home/chiarotti/NetBeansProjects/MiniPascal/src/minipascal/Run.java</file>
+            <file>file:/home/chiarotti/NetBeansProjects/MiniPascal/input.basic</file>
+            <file>file:/home/chiarotti/NetBeansProjects/MiniPascal/build/generated-sources/antlr4/minipascal/parser/MiniPascalBaseVisitor.java</file>
+            <file>file:/home/chiarotti/NetBeansProjects/MiniPascal/src/minipascal/util/SymbolsTable.java</file>
+        </group>
+    </open-files>
+</project-private>

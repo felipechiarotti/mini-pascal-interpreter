@@ -1,0 +1,23 @@
+program "Teste";
+var initial, final, result : integer;
+
+begin
+    write("Digite o valor inicial:");
+    read(initial);
+    
+    write("Digite o valor final:");
+    read(final);
+
+    result := initial;
+
+    while result < final do
+        begin
+            result := result + 1;
+            write(result);
+        end;
+
+    for(  ; result > initial ; result := result - 1)
+        begin
+            write(result);
+        end;
+end

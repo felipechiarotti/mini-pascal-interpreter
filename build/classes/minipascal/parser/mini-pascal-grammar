@@ -1,0 +1,60 @@
+constant ::= DIGIT | STR | ID
+letdig  ::= letter | digit
+
+specsym ::=  	+ | - | * | = | <> | < | > | <= | >= |
+                ( | ) | [ | ] | := | . | , | ; | : | .. | DIV | OR |
+                AND | NOT | IF | THEN | ELSE | OF | WHILE | DO |
+                BEGIN | END | READ | WRITE | VAR | ARRAY |
+                PROCEDURE | PROGRAM
+
+predid ::= INTEGER | BOOLEAN | TRUE | FALSE
+
+//Tokens
+DIV : 'div';
+OR  : 'or';
+AND : 'and';
+NOT : 'not';
+IF  : 'if';
+THEN : 'then';
+ELSE : 'else';
+OF : 'of';
+WHILE : 'while';
+DO : 'do';
+BEGIN : 'begin';
+END : 'end';
+READ : 'read';
+WRITE : 'write';
+VAR : 'var';
+ARRAY : 'array';
+PROCEDURE : 'procedure';
+PROGRAM : 'program';
+LETTER : [a-ZA-Z]+;
+DIGIT  : [0-9]+;
+PLUS : '+';
+MINUS : '-';
+MULT : '*';
+EQUALS : '=';
+RT : '>';
+LT : '<';
+LE : '<=';
+RE : '>=';
+LR : '<>';
+OP : '(';
+CP : ')';
+OC : '[';
+CC : ']';
+ATTRIB : ':=';
+DOT := '.';
+COMMA := ',';
+SMCOLON := ';';
+COLON := ':';
+DBDOT := '..';
+INTEGER := 'integer';
+BOOLEAN := 'boolean';
+FLOAT := 'float';
+STRING := 'string';
+TRUE := 'true';
+FALSE := 'false';
+STR     : '"'[a-zA-Z0-9\t ]*'"';
+ID     : [a-zA-Z][a-zA-Z0-9_]*;
+WS      : [\n\r \t]+ -> skip;
